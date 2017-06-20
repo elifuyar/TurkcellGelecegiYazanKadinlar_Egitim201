@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="gelecegiyazanlar.loginapplication.MainActivity"
+    android:background="@color/colorAccent"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop = "110dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/kelebek"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Kullanici Adi.."
+        android:id="@+id/editTextKullanciadi" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="Şifre..."
+        android:inputType="textPassword"
+        android:id="@+id/editTextSifre"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/buttonGiris"
+        android:layout_margin="10dp"
+        android:text="GİRİŞ"/>
+
+
+</LinearLayout>
